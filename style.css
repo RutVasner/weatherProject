@@ -1,0 +1,47 @@
+* {
+    /* דואג שפדינג ובורד יתרחבו כלפי פנים */
+    box-sizing: border-box;
+}
+/* body{
+    height: 700px;
+} */
+
+header {
+    display: flex;
+    height: 120px;
+    align-items: center;
+}
+h6{
+    padding-right:55px ;
+
+}
+#content {
+     /* height: 70%; */
+    background: #c2e6ff;
+    justify-content: space-around;
+
+}
+
+.card {
+    margin: 60px 0;
+    width: 480px !important;
+}
+
+.firstRow {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.secondRow {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  
+}
+li{
+    text-align: center;
+    /* font-size: larger; */
+}
+ul{
+    width: 33.33%;
+padding: 0 !important;
+}
